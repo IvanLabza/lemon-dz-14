@@ -1,0 +1,23 @@
+:root {
+  --ff: "Rubik", sans-serif;
+  --transition: 0.2s all ease-in-out;
+  --c-primary: #ed9902;
+  --c-white: #fff;
+  --c-dark1: #21201e;
+  --c-dark2: #2d2b29;
+  --c-body: #9b968b;
+  --swiper-navigation-color: #ed9902;
+  --swiper-pagination-bullet-inactive-color: #ed9902;
+  --swiper-pagination-bullet-inactive-opacity: 0.6;
+  --swiper-navigation-size: 20rem;
+  --swiper-pagination-bullet-horizontal-gap: 15rem;
+  --swiper-pagination-bullet-width: 15rem;
+  --swiper-pagination-bullet-height: 15rem;
+  --font-h2-reg: 500 20px/45px var(--ff);
+}
+
+@media screen {
+  :root {
+    --font-h2-reg: 500 16px/45px var(--ff);
+  }
+}
