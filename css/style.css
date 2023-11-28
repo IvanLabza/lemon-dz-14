@@ -658,6 +658,7 @@ swiper-slide {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-right: 10px;
 }
 
 swiper-slide img {
@@ -1092,4 +1093,4 @@ swiper-slide img:hover {
 }
 .footer__link:hover {
   color: var(--c-primary);
-}/*# sourceMappingURL=style.css.map */
+}
